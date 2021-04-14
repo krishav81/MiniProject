@@ -2,7 +2,7 @@
 #include<conio.h>
 #include<stdlib.h>
 #include<string.h>
-#include "root.h"
+#include "../inc/root.h"
 /*********************************************PRINTTICKET()*************************************************/
 
 void printticket(char name[],int num_of_seats,int train_num,float fares)

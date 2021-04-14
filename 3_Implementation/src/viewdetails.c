@@ -2,7 +2,7 @@
 #include<conio.h>
 #include<stdlib.h>
 #include<string.h>
-#include "root.h"
+#include "../inc/root.h"
 /*********************************************VIEWDETAILS()*************************************************/
 
 void viewdetails(void)
