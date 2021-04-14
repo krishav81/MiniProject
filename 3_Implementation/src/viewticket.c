@@ -2,7 +2,7 @@
 #include<conio.h>
 #include<stdlib.h>
 #include<string.h>
-#include"..inc/root.h"
+#include"root.h"
 void viewticket()
 {  
     int id,a;

@@ -2,7 +2,7 @@
 #include<conio.h>
 #include<stdlib.h>
 #include<string.h>
-#include "../inc/root.h"
+#include "root.h"
 /*********************************************FARE()*************************************************/
 
 float fare(int train_num,int num_of_seats)

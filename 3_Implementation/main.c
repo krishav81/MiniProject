@@ -5,7 +5,7 @@
 #include<conio.h>
 #include<stdlib.h>
 #include<string.h>
-#include "../inc/root.h"
+#include "root.h"
 int main()
 {
 	system("cls"); 
