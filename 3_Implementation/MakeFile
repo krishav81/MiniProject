@@ -1,0 +1,20 @@
+PROJECT_NAME = all
+SRC = main.c\
+src/booking.c\
+src/cancel.c\
+src/fare.c\
+src/login.c\
+src/printticket.c\
+src/viewdetails.c\
+src/viewticket.c
+
+INC = inc
+
+$(PROJECT_NAME): $(SRC)
+	gcc -I $(INC) $(SRC) -o all.out
+
+run: $(PROJECT_NAME)
+	$(PROJECT_NAME)
+
+clean:
+	rm *.out
